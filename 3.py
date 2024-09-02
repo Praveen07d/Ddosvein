@@ -23,7 +23,7 @@ PROXY_FILE = "n.txt"
 # Function to read user IDs from the file
 def read_users():
     try:
-        with open(USER_FILE = "r") as file:
+        with open(USER_FILE, "r") as file:
             return file.read().splitlines()
     except FileNotFoundError:
         return []
@@ -31,7 +31,7 @@ def read_users():
 # Function to read free user IDs and their credits from the file
 def read_free_users():
     try:
-        with open(FREE_USER_FILE = "r") as file:
+        with open(FREE_USER_FILE, "r") as file:
             lines = file.read().splitlines()
             for line in lines:
                 if line.strip():  # Check if line is not empty
