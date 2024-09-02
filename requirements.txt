@@ -1,5 +1,3 @@
 telebot
 gunicorn
 Flask
-pymongo
-certifi
