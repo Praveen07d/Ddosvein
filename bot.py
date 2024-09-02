@@ -9,7 +9,7 @@ import random
 bot = telebot.TeleBot('7213302928:AAFbOtMfKFNr4w1tw8kM9Phh1MnYzHbqjyA')
 
 # Admin User ID
-admin_id = ["5510109123", "923410327", "698157502"]
+admin_id = ["6478608805", "923410327", "698157502"]
 
 # File To Store Authorised User IDs
 USER_FILE = "users.txt"
