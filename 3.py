@@ -6,10 +6,10 @@ import os
 import random
 
 # Put Your Telegram Bot Token Here
-bot = telebot.TeleBot('7349490677:AAFi4NC5gTaJ-Oa3-lhkb_cNHh3JcgY8a0Q')
+bot = telebot.TeleBot('7213302928:AAFbOtMfKFNr4w1tw8kM9Phh1MnYzHbqjyA')
 
 # Admin User ID
-admin_id = ["5510109123","923410327","698157502"]
+admin_id = ["5510109123","923410327","6478608805"]
 
 # File To Store Authorised User IDs
 USER_FILE = "users.txt"
@@ -49,7 +49,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["5510109123","923410327","698157502"]
+    admin_id = ["5510109123","923410327","6478608805"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
