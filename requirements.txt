@@ -1,3 +1,6 @@
 telebot
 gunicorn
 Flask
+aiogram
+schedule
+requests
